@@ -1,0 +1,32 @@
+{
+  "const function": {
+    "prefix": "cf",
+    "body": [
+      "const ${1:functionName} = function(${2:arguments}){",
+      "\treturn ${3:0};",
+      "};"
+    ],
+    "description": "const function"
+  },
+  "describe": {
+    "prefix": "desc",
+    "body": [
+      "describe('${1:describingBlockName}', function(){",
+      "",
+      "\tit('${2:typeOfTest}', () => {",
+      "\t\tassert.${3:deep}StrictEqual(${4:testFunctionCall}(${5:args}),${6:expectedValue});",
+      "\t});",
+      "",
+      "});"
+    ]
+  },
+  "it": {
+    "prefix": "it",
+    "body": [
+      "it('${2:typeOfTest}', () => {",
+      "\tassert.${3:deep}StrictEqual(${4:testFunctionCall}(${5:args}),${6:expectedValue});",
+      "});",
+      ""
+    ]
+  }
+}

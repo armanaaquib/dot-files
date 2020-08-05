@@ -1,0 +1,83 @@
+{
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Electron",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "expand",
+  "editor.suggest.filterGraceful": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "editor.largeFileOptimizations": false,
+  "cSpell.userWords": [
+    "Aaquib",
+    "Equbal",
+    "Vikram",
+    "arman",
+    "armanaaquib",
+    "blpop",
+    "brpop",
+    "brpoplpush",
+    "hexists",
+    "hget",
+    "hgetall",
+    "hmget",
+    "hmset",
+    "hset",
+    "incrby",
+    "lpop",
+    "lpush",
+    "lrange",
+    "ltrim",
+    "mget",
+    "mimetype",
+    "mset",
+    "rpop",
+    "rpoplpush",
+    "rpush",
+    "sadd",
+    "setnx",
+    "smembers",
+    "sqlite",
+    "varchar",
+    "zfill"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "javascript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.maxColumn": 80,
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "html.customData": [".html"],
+  "[django-html]": {},
+  "terminal.integrated.inheritEnv": false,
+  "C_Cpp.updateChannel": "Insiders",
+  "editor.wrappingIndent": "indent",
+  "editor.wordWrap": "on",
+  "cSpell.enableFiletypes": ["django-html", "shellscript", "sql", "sqlite"],
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "autopep8"
+    // "editor.minimap.maxColumn": 120
+  },
+  "[c]": {
+    "editor.defaultFormatter": "clang-format"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "clang-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "liveshare.audio.joinCallBehavior": "accept",
+  "files.associations": {
+    "*.html": "html"
+  }
+}

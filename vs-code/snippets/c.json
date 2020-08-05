@@ -1,0 +1,25 @@
+{
+  "print values": {
+    "prefix": "ppf",
+    "body": ["printf(\"%${1:d}$0\\n\", ${2:parameter});"],
+    "description": "print with paremeters"
+  },
+  "print message": {
+    "prefix": "pf",
+    "body": ["printf(\"${1:message}\\n\");"],
+    "description": "print string literals"
+  },
+  "main function": {
+    "prefix": "mf",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main(void)",
+      "{",
+      "\t$0",
+      "",
+      "\treturn 0;",
+      "}"
+    ]
+  }
+}

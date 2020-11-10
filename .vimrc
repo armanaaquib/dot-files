@@ -45,8 +45,8 @@ syntax on
 set backspace=indent,eol,start
 
 
-call plug#begin('~/.vim/plugged')
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+"call plug#begin('~/.vim/plugged')
+"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"Plug 'junegunn/fzf.vim'
 "Plug 'terryma/vim-multiple-cursors'
-call plug#end()
+"call plug#end()

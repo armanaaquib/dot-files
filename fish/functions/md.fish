@@ -1,3 +1,3 @@
 function md
-    mkdir $argv
+    mkdir $argv[1]
 end
